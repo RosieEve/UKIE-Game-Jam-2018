@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class PlayMusic : MonoBehaviour {
 
 
-
+    public MenuSettings menuSettings;
 	public AudioClip titleMusic;					//Assign Audioclip for title music loop
+	public AudioClip mainMusic;						//Assign Audioclip for main 
 	public AudioMixerSnapshot volumeDown;			//Reference to Audio mixer snapshot in which the master volume of main mixer is turned down
 	public AudioMixerSnapshot volumeUp;				//Reference to Audio mixer snapshot in which the master volume of main mixer is turned up
 
@@ -20,31 +21,24 @@ public class PlayMusic : MonoBehaviour {
 	{
 		//Get a component reference to the AudioSource attached to the UI game object
 		musicSource = GetComponent<AudioSource> ();
-        //Call the PlayLevelMusic function to start playing music
+		//Call the PlayLevelMusic function to start playing music
 	}
 
-    private void Update()
-    {
-        PlayLevelMusic();
-    }
 
-
-    public void PlayLevelMusic()
+	public void PlayLevelMusic()
 	{
 		//This switch looks at the last loadedLevel number using the scene index in build settings to decide which music clip to play.
 		switch (SceneManager.GetActiveScene().buildIndex)
 		{
 			//If scene index is 0 (usually title scene) assign the clip titleMusic to musicSource
 			case 0:
-				musicSource.clip = titleMusic;
-                musicSource.Play();
-                break;
+				musicSource.clip = menuSettings.mainMenuMusicLoop;
+				break;
 			//If scene index is 1 (usually main scene) assign the clip mainMusic to musicSource
 			case 1:
-                Debug.Log("Scene index is 1, setting music to ");
-                musicSource.clip = titleMusic;
-                musicSource.Play();
-                break;
+                Debug.Log("Scene index is 1, setting music to " + menuSettings.musicLoopToChangeTo);
+				musicSource.clip = menuSettings.musicLoopToChangeTo;
+				break;
 
 		}
 
@@ -52,7 +46,7 @@ public class PlayMusic : MonoBehaviour {
 		//Fade up the volume very quickly, over resetTime seconds (.01 by default)
 		FadeUp (resetTime);
 		//Play the assigned music clip in musicSource
-
+		musicSource.Play ();
 	}
 	
 	//Used if running the game in a single scene, takes an integer music source allowing you to choose a clip by number and play.

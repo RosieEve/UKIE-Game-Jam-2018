@@ -12,7 +12,8 @@ public class StartOptions : MonoBehaviour {
 	public int sceneToStart = 1;										//Index number in build settings of scene to load if changeScenes is true
 	public bool changeScenes;											//If true, load a new scene when Start is pressed, if false, fade out UI and continue in single scene
 	public bool changeMusicOnStart;										//Choose whether to continue playing menu music or start a new music clip
-    public CanvasGroup fadeOutImageCanvasGroup;                         //Canvas group used to fade alpha of image which fades in before changing scenes
+    public CanvasGroup fadeOutImageCanvasGroup;
+    public CanvasGroup fadeOutImageCanvasGroup2;   //Canvas group used to fade alpha of image which fades in before changing scenes
     public Image fadeImage;                                             //Reference to image used to fade out before changing scenes
 
 	[HideInInspector] public bool inMainMenu = true;					//If true, pause button disabled in main menu (Cancel in input manager, default escape key)
@@ -56,6 +57,7 @@ public class StartOptions : MonoBehaviour {
 			Invoke ("LoadDelayed", menuSettingsData.menuFadeTime);
 
             StartCoroutine(FadeCanvasGroupAlpha(0f, 1f, fadeOutImageCanvasGroup));
+            StartCoroutine(FadeCanvasGroupAlpha(0f, 1f, fadeOutImageCanvasGroup2));
 
         } 
 

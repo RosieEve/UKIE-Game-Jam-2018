@@ -13,18 +13,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonColorBlock:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.4433962, g: 0.41202384, b: 0.41202384, a: 1}
-    m_PressedColor: {r: 0.26986152, g: 0.25938946, b: 0.2735849, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.56114835, g: 0.6628893, b: 0.71323526, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   imageColor: {r: 1, g: 1, b: 1, a: 0}
   sliderColorBlock:
-    m_NormalColor: {r: 0.764151, g: 0.65832454, b: 0.4577697, a: 1}
-    m_HighlightedColor: {r: 0.58431375, g: 0.36078432, b: 0.1137255, a: 1}
-    m_PressedColor: {r: 0.5849056, g: 0.35929254, b: 0.11311853, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.56114835, g: 0.6628893, b: 0.71323526, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0
-  font: {fileID: 12800000, guid: eb74d6f7481903f429ebe8638b88b1d4, type: 3}
+  font: {fileID: 12800000, guid: fc52247c4e44a6c48bc248e21cc00ea2, type: 3}
   textColor: {r: 0, g: 0, b: 0, a: 1}

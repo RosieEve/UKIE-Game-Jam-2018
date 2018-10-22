@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0473c9ffbf745dd48a69215833f3bfc3
+guid: cb6fd775d5ce5b6479ced904e5b5d08a
 TextureImporter:
   fileIDToRecycleName:
     21300000: ui_big_pieces_0
@@ -7,15 +7,6 @@ TextureImporter:
     21300004: ui_big_pieces_2
     21300006: ui_big_pieces_3
     21300008: ui_big_pieces_4
-    21300010: ui_big_pieces_5
-    21300012: ui_big_pieces_6
-    21300014: ui_big_pieces_7
-    21300016: ui_big_pieces_8
-    21300018: ui_big_pieces_9
-    21300020: ui_big_pieces_10
-    21300022: ui_big_pieces_11
-    21300024: ui_big_pieces_12
-    21300026: ui_big_pieces_13
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -95,6 +86,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,10 +125,10 @@ TextureImporter:
       name: ui_big_pieces_0
       rect:
         serializedVersion: 2
-        x: 633
-        y: 518
-        width: 125
-        height: 32
+        x: 409
+        y: 296
+        width: 11
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23db0971031466b4789eab2ef4c4d0c6
+      spriteID: 5ac4721ded3d67b46b5d07944b22c7d9
       vertices: []
       indices: 
       edges: []
@@ -145,8 +147,8 @@ TextureImporter:
         serializedVersion: 2
         x: 631
         y: 484
-        width: 128
-        height: 32
+        width: 127
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,7 +156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83e09bb8a776e08418508c351c29ffe7
+      spriteID: f883708ebee34494db26f2f7f1f0b8a0
       vertices: []
       indices: 
       edges: []
@@ -163,10 +165,10 @@ TextureImporter:
       name: ui_big_pieces_2
       rect:
         serializedVersion: 2
-        x: 711
-        y: 146
-        width: 138
-        height: 138
+        x: 632
+        y: 516
+        width: 128
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,7 +176,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd5cbafaa49d0d34b9e883caf16fc5c6
+      spriteID: 982a39ee2b7377648899b534054a5b3e
       vertices: []
       indices: 
       edges: []
@@ -183,10 +185,10 @@ TextureImporter:
       name: ui_big_pieces_3
       rect:
         serializedVersion: 2
-        x: 756
-        y: 98
-        width: 34
-        height: 36
+        x: 632
+        y: 456
+        width: 126
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 672d966600a25e1478e0c958cfb5aacf
+      spriteID: 10afa75b89a62554ca91f77a5664dbdd
       vertices: []
       indices: 
       edges: []
@@ -203,10 +205,10 @@ TextureImporter:
       name: ui_big_pieces_4
       rect:
         serializedVersion: 2
-        x: 30
-        y: 239
-        width: 41
-        height: 43
+        x: 713
+        y: 145
+        width: 140
+        height: 143
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,7 +216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000fbe88e1adad843822d3e831f20c4b
+      spriteID: 804f0beed104301409f9092766625906
       vertices: []
       indices: 
       edges: []
@@ -222,7 +224,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d64c0121ddec25446a4210bc79ada9ed
+    spriteID: b75b9b29503d1a644ae3bc8d559c0a54
     vertices: []
     indices: 
     edges: []
