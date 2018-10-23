@@ -5,15 +5,17 @@ using UnityEngine.UI;
 
 public class CurrentElementDisplay : MonoBehaviour {
 
-    public Sprite[] ElementSprites;  //0 --> Air, 1 --> water, 2--> Earth, 3--> Fire
+    public Sprite[] ElementSprites;  //0 --> Air, 1 --> water, 2--> Earth, 3--> Fire, 4 --> empty
     private Image sprite;
 
 	// Use this for initialization
 	void Start () {
 
         sprite = gameObject.GetComponent<Image>();
+        sprite.sprite = ElementSprites[4];
+        sprite.color = Color.white;
 
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -43,6 +45,11 @@ public class CurrentElementDisplay : MonoBehaviour {
         else if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             sprite.sprite = ElementSprites[3];
+            sprite.color = Color.white;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            sprite.sprite = ElementSprites[4];
             sprite.color = Color.white;
         }
     }
