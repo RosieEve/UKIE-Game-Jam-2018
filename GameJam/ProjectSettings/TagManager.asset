@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - IceBullet
+  - IceElemental
+  - FireElemental
+  - Wall
+  - FireBullet
+  - EarthElemental
+  - EarthBullet
+  - AirBullet
+  - AirElemental
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -13,8 +23,8 @@ TagManager:
   - UI
   - 
   - 
+  - Enemy
   - Ground
-  - 
   - 
   - 
   - 

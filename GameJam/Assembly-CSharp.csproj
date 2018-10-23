@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}</ProjectGuid>
+    <ProjectGuid>{9AA14CF3-4E78-1F26-59DB-32F3606A6B37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -75,25 +75,40 @@
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\MenuObject.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\MenuSettings.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\Pause.cs" />
+    <Compile Include="Assets\Game Jam Template\Scripts\Menu\PauseMenu.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\PlayMusic.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\QuitApplication.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\SetAudioLevels.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\ShowPanels.cs" />
     <Compile Include="Assets\Game Jam Template\Scripts\Menu\StartOptions.cs" />
+    <Compile Include="Assets\MissingScripts\ChangeMusic.cs" />
+    <Compile Include="Assets\MissingScripts\GameCompleteScript.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Triggers\DialogueTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\EarthWallTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\FireMeltTrigger.cs" />
+    <Compile Include="Assets\Scripts\Triggers\GameCompleteScene.cs" />
+    <Compile Include="Assets\Scripts\Triggers\IceBridgeTrigger.cs" />
+    <Compile Include="Assets\Scripts\UIHealthDisplay.cs" />
+    <Compile Include="Assets\Scripts\Vacuum.cs" />
     <None Include="Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
     <None Include="Assets\Game Jam Template\README.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/u1708902/Documents/GitHub/UKIE-Game-Jam-2018/GameJam/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/u1711255/UKIE Gamesjam 2018 Build/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/u1708902/Documents/GitHub/UKIE-Game-Jam-2018/GameJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/u1711255/UKIE Gamesjam 2018 Build/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/u1708902/Documents/GitHub/UKIE-Game-Jam-2018/GameJam/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/u1711255/UKIE Gamesjam 2018 Build/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/u1708902/Documents/GitHub/UKIE-Game-Jam-2018/GameJam/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/u1711255/UKIE Gamesjam 2018 Build/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -297,10 +312,10 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/u1708902/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/u1711255/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/u1708902/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/u1711255/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
